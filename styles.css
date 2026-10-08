@@ -88,6 +88,12 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 64px 0; }
 .checks li { font-weight: 700; font-size: 1.2rem; padding: 7px 0 7px 38px; position: relative; }
 .checks li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
 
+.image img {
+  width: 80%;
+  height:auto;
+  object-fit: contain;
+}
+
 /* Experience */
 .part-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 32px; }
 .part { background: #fff; border: 1px solid var(--line); padding: 28px 30px 32px; }
